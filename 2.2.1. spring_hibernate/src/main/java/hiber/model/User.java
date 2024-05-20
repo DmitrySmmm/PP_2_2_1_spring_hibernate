@@ -35,6 +35,14 @@ public class User {
       this.lastName = lastName;
       this.email = email;
    }
+
+   public User(String firstName, String lastName, String email, Car car) {
+      this.firstName = firstName;
+      this.lastName = lastName;
+      this.email = email;
+      this.car = car;
+   }
+
    public void setCar(Car car) {
       this.car = car;
    }
